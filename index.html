@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-bar">
+        <div class="logo">
+            <img src="Images/logo.png" alt="Ethio Cable Logo">
+            <h1>Ethio Cable</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/products.html">Products</a></li>
+                <li><a href="#mycontact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <h2>Powering Ethiopia with Quality Cables</h2>
+            <p>
+                Ethio Cable manufactures and supplies high-quality electrical
+                and communication cables for homes, industries, and infrastructure projects.
+            </p>
+            <div class="hero-buttons">
+                <a href="pages/products.html" class="btn secondary">Order Now</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/home1.jpg" alt="Electrical Cables">
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <h2>Our Product Categories</h2>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Images/homecable.jpg" alt="Home Wiring Cable">
+                <h3>Home Wiring Cables</h3>
+                <p>Safe and reliable cables for residential buildings.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="Images/industrycable.jpg" alt="Industrial Cable">
+                <h3>Industrial Cables</h3>
+                <p>Heavy-duty cables for factories and power systems.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="Images/datacable.jpg" alt="Communication Cable">
+                <h3>Communication Cables</h3>
+                <p>High-performance cables for data and communication.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-home">
+    <div class="container">
+        <h2 id="mycontact">Get In Touch</h2>
+        <p>Have questions or need a quotation? Send us a message and we'll get back to you soon.</p>
+
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Please describe your inquiry in detail..." required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX">
+                </div>
+                
+                <div class="form-group">
+                    <label for="product">Product Interest (Optional)</label>
+                    <select id="product" name="product">
+                        <option value="">Select a product category</option>
+                        <option value="home-wiring">Home Wiring Cables</option>
+                        <option value="industrial">Industrial Cables</option>
+                        <option value="communication">Communication Cables</option>
+                        <option value="other">Other/Not sure</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn primary submit-btn">Send Message</button>
+            </form>
+            
+            <div class="contact-info-sidebar">
+                <h3>Contact Information</h3>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>Address</strong>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <p>info@ethiocable.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong> Phone</strong>
+                        <p>+251 90000000</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong> Business Hours</strong>
+                        <p>Mon - Fri: 8:30 AM - 5:30 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="site-footer">
+    <p>&copy; 2026 Ethio Cable. All rights reserved.</p>
+
+    <div class="social-links">
+        <a href="#" aria-label="Facebook">
+            <img src="Images/facebook.png" alt="Facebook">
+        </a>
+        <a href="#" aria-label="LinkedIn">
+            <img src="Images/whatsapp.png" alt="LinkedIn">
+        </a>
+        <a href="#" aria-label="Telegram">
+            <img src="Images/Telegram.webp" alt="Telegram">
+        </a>
+        <a href="#" aria-label="Instagram">
+            <img src="Images/Instagram.webp" alt="Instagram">
+        </a>
+    </div>
+</footer>
+
+ <script src="pages/main.js"></script>
+</body>
+</html>
